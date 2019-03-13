@@ -1,0 +1,7 @@
+[{"id":"1","name": "test1", "open": true, "children": [{ "name": "简单点击事件(事件写在数据中)","click":"alert('test')" }, { "name": "可设置为超链接（但与edit冲突）" ,"url":"http://www.baidu.com","target":"tree_test"}]},
+  {"id":"2","name": "初始不展开子节点", "open": false, "children": [{ "name": "test2_1" }, { "name": "test2_2" }]},
+  {"id":"3","name": "test3", "open": true, "children": [{ "name": "test3_1" }, { "name": "test3_2" }]},
+  {"id":"4","name": "test4", "open": true, "children": [{ "name": "test4_1" }, { "name": "test4_2" }]},
+  {"id":"5","name": "test5", "open": true, "children": [{ "name": "test5_1" }, { "name": "自定义不显示复选框" , "nocheck":true}, { "name": "test5_3" ,"data_test":"123456"}]},
+  {"id":"6","name": "折叠展开状态图表均可修改", "open": true, "children": [{ "name": "自定义图标1" ,"icon":"./css/img/app-icon.png"}, { "name": "自定义图标2" ,"icon":"./css/img/backlog.png"}],"iconClose":"./css/img/app-icon.png","iconOpen":"./css/img/backlog.png"}
+]
